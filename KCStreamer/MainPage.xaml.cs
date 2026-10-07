@@ -1,24 +1,33 @@
-﻿namespace KCStreamer
+﻿using KCStreamer.Services;
+
+namespace KCStreamer;
+
+public partial class MainPage : ContentPage
 {
-    public partial class MainPage : ContentPage
+    private readonly BluetoothService _bluetoothService;
+
+    public MainPage()
     {
-        int count = 0;
+        InitializeComponent();
 
-        public MainPage()
+        _bluetoothService = new BluetoothService();
+
+        _bluetoothService.OnPowerChanged += OnPowerChanged;
+
+        _bluetoothService.StartScanning();
+    }
+
+    private void OnPowerChanged(object sender, int watts)
+    {
+        MainThread.BeginInvokeOnMainThread(() =>
         {
-            InitializeComponent();
-        }
+            PowerLabel.Text = $"{watts} W";
+        });
+    }
 
-        private void OnCounterClicked(object? sender, EventArgs e)
-        {
-            count++;
-
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
-        }
+    protected override void OnDisappearing()
+    {
+        base.OnDisappearing();
+        _bluetoothService.OnPowerChanged -= OnPowerChanged;
     }
 }
