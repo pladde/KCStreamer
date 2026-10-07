@@ -44,4 +44,4 @@ Wenn dir das Projekt gefällt oder es dir bei deinem Setup hilft, kannst du mich
 
 <a href="https://www.paypal.com/donate/?hosted_button_id=LLBVA5BDSQKVY" target="_blank"><img src="https://img.shields.io/badge/PayPal-Spenden-blue?style=for-the-badge&logo=paypal" alt="PayPal Spenden"></a>
 
-<a href="https://www.buymeacoffee.com/deinname" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="30" width="130"></a>
+<a href="https://www.buymeacoffee.com/pladde" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="30" width="130"></a>
