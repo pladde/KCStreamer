@@ -20,3 +20,6 @@ Somit kannst du auf mehreren Plattformen gleichzeitig unterwegs sein.
 
 - **BLE-Scanner:** Sucht im Hintergrund gezielt nach dem KICKR Core über den standardisierten Cycling Power Service. 
 - **GATT-Verbindung:** Baut die Verbindung auf, aktiviert die Notifications und parst die ankommenden Rohdaten-Bytes in nutzbare Wattzahlen. 
+
+## ▶️ Was geht bisher ?
+Quasi noch nichts relevantes für den Anwender. ;)
