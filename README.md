@@ -1,12 +1,12 @@
 <div>
-
-# KCStreamer
-
+  
 [![Status: Alpha](https://img.shields.io/badge/Status-Alpha-orange.svg)]()
 [![.NET MAUI](https://img.shields.io/badge/.NET%20MAUI%208.0-512BD4?style=flat&logo=.net&logoColor=white)](https://dotnet.microsoft.com/)
 [![Platform: Windows](https://img.shields.io/badge/Platform-Windows-0078D4?style=flat&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
 [![Bluetooth LE](https://img.shields.io/badge/Bluetooth-LE-0082FC?style=flat&logo=bluetooth&logoColor=white)](https://www.bluetooth.com/)
 [![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg)]()
+
+# KCStreamer
 
 </div>
 
