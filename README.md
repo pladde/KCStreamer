@@ -22,7 +22,7 @@ Wenn du einen Smart-Trainer (wie den Wahoo KICKR Core) per BLE verbindet, blocki
 *Die technische Basis steht, aber für den Endanwender gibt es noch keine grafische Oberfläche oder fertige Steuerung.*
 
 - [x] Verbindung des BLE-Devices
-- [ ] Anzeigen der Leistungsdaten in einem minimalistischen UI
+- [x] Anzeigen der Leistungsdaten in einem minimalistischen UI
 - [ ] Bereitstellen der Daten für die Indoor-Cycling-Platform
 - [ ] Steuerung der Leistung durch ausgewählte Plattform
 
@@ -35,7 +35,12 @@ Wenn du einen Smart-Trainer (wie den Wahoo KICKR Core) per BLE verbindet, blocki
 
 - BLE-Suche und Filterung nach dem KICKR Core
 - Aufbau der GATT-Verbindung und Daten-Parsing
+- Die Leistunsgdaten (Watt) werden nun angezeigt
 
+***FIXMEs:***
+- Aktuell gibt es immer wieder "Freezes" wenn man nicht tritt. Ich vermute dass das mit dem BLE-Stack zusammenhängt, der die Verbindung verliert und nicht automatisch wiederherstellt.
+
+  
 ---
 
 ## ☕ Support
