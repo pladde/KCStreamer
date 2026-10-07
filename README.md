@@ -6,7 +6,7 @@
 [![.NET MAUI](https://img.shields.io/badge/.NET%20MAUI%208.0-512BD4?style=flat&logo=.net&logoColor=white)](https://dotnet.microsoft.com/)
 [![Platform: Windows](https://img.shields.io/badge/Platform-Windows-0078D4?style=flat&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
 [![Bluetooth LE](https://img.shields.io/badge/Bluetooth-LE-0082FC?style=flat&logo=bluetooth&logoColor=white)](https://www.bluetooth.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg)]()
 
 </div>
 
@@ -74,6 +74,14 @@ Wenn du einen Smart-Trainer (wie den Wahoo KICKR Core) per BLE verbindet, blocki
 - Aktuell gibt es immer wieder "Freezes" wenn man nicht tritt. Ich vermute dass das mit dem BLE-Stack zusammenhängt, der die Verbindung verliert und nicht automatisch wiederherstellt.
 
   
+---
+
+## 📄 Lizenz & Nutzungsbedingungen
+
+KCStreamer ist **kostenlose Freeware**. 
+* Du darfst die Anwendung privat und für deine Indoor-Cycling-Setups kostenlos nutzen.
+* **Der Quellcode ist urheberrechtlich geschützt.** Das Kopieren, Modifizieren, Dekompilieren oder Weiterverbreiten des Codes ohne ausdrückliche Erlaubnis des Autors ist untersagt.
+
 ---
 
 ## ☕ Support
