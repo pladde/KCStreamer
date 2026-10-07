@@ -6,7 +6,7 @@
 [![Bluetooth LE](https://img.shields.io/badge/Bluetooth-LE-0082FC?style=flat&logo=bluetooth&logoColor=white)](https://www.bluetooth.com/)
 [![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg)]()
 
-# KCStreamer
+# KCStreamer (Arbeitsname)
 
 </div>
 
