@@ -22,14 +22,12 @@ Wenn du einen Smart-Trainer (wie den Wahoo KICKR Core) per BLE verbindet, blocki
 *Die technische Basis steht, aber für den Endanwender gibt es noch keine grafische Oberfläche oder fertige Steuerung.*
 
 - [x] Verbindung des BLE-Devices
-- [ ] Anzeigen der Leistungsdaten in einem minimalitischen UI.
-- [ ] Bereitstellen der Daten für die Indoor-Cycling-Plattform
+- [ ] Anzeigen der Leistungsdaten in einem minimalistischen UI
+- [ ] Bereitstellen der Daten für die Indoor-Cycling-Platform
 - [ ] Steuerung der Leistung durch ausgewählte Plattform
 
-*optionale Features*
+*Optionale Features*
 - [ ] Einen optionalen Launcher mit Shortcuts der Plattformen
-
-
 
 ---
 
@@ -37,3 +35,13 @@ Wenn du einen Smart-Trainer (wie den Wahoo KICKR Core) per BLE verbindet, blocki
 
 - BLE-Suche und Filterung nach dem KICKR Core
 - Aufbau der GATT-Verbindung und Daten-Parsing
+
+---
+
+## ☕ Support
+
+Wenn dir das Projekt gefällt oder es dir bei deinem Setup hilft, kannst du mich gerne unterstützen: 
+
+<a href="https://www.paypal.com/donate/?hosted_button_id=LLBVA5BDSQKVY" target="_blank"><img src="https://img.shields.io/badge/PayPal-Spenden-blue?style=for-the-badge&logo=paypal" alt="PayPal Spenden"></a>
+
+<a href="https://www.buymeacoffee.com/deinname" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="30" width="130"></a>
