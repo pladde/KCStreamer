@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KCStreamer.View.HelloPage"
+             Title="HelloPage">
+    
+    <VerticalStackLayout>
+
+        <Label 
+            Text="KCStreamer"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="40"
+            Margin="0,0,0,75" />
+
+        <Label x:Name="ConnectedDeviceName"
+            Text="kein Gerät verbunden"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="16"
+            Margin="0,0,0,50" />
+
+        <Button Background="Gray"
+                Text="Geräte suchen"
+                Margin="5"
+                WidthRequest="250" />
+
+        <Button Background="Gray"
+                Text="Verbinden"
+                Margin="5"
+                WidthRequest="250" />
+
+    </VerticalStackLayout>
+</ContentPage>
