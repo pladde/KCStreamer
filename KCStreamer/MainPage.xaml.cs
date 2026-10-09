@@ -1,4 +1,5 @@
-﻿using KCStreamer.Services;
+﻿using KCStreamer.Models;
+using KCStreamer.Services;
 
 namespace KCStreamer;
 
@@ -17,11 +18,12 @@ public partial class MainPage : ContentPage
         _bluetoothService.StartScanning();
     }
 
-    private void OnPowerChanged(object sender, int watts)
+    private void OnPowerChanged(object sender, SensorData sensorData)
     {
         MainThread.BeginInvokeOnMainThread(() =>
         {
-            PowerLabel.Text = $"{watts} W";
+            PowerLabel.Text = $"{sensorData.InstantaneousPowerWatts} W";
+            CadenceLabel.Text = $"{sensorData.CumulativeCrankRevolutions} rounds";
         });
     }
 
